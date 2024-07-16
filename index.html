@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Feedback form</title>
+  </head>
+  <body>
+    <form class="block-center form">
+      <h1>Обратная связь</h1>
+      <div class="form-input mb-2">
+        <label for="yourname" class="sr-only">Имя</label>
+        <input type="text" id="yourname" placeholder="Ваше имя">
+      </div>
+      <div class="form-input mb-2">
+        <label for="youremail" class="sr-only">Email</label>
+        <input type="text" id="youremail" placeholder="Ваш Email">
+      </div>
+      <div class="form-input mb-2">
+        <label for="yourtext" class="sr-only">Поле для ввода сообщения</label>
+        <textarea id="yourtext" placeholder="Ваше сообщение"></textarea>
+      </div>
+      <div class="small mb-1">
+        <label>
+          <input type="checkbox" name="service" value="yes">
+          Я принимаю правила сервиса
+        </label>
+      </div>
+      <button class="btn btn-green">Отправить сообщение</button>
+    </form>
+  </body>
+</html>
